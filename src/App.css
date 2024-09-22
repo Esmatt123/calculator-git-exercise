@@ -40,15 +40,34 @@ h1 {
   font-size: 50px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: darkgreen;
+  display: flex;
+  justify-content: center;
 }
 
 .button {
-  width: 75px;
+  width: 105px;
   height: 30px;
-  background-color: darkblue;
-  border-radius: 20px;
+  background-color: rgb(174, 35, 47);
+  border-radius: 10px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  box-shadow: 2px 2px 10px dimgray;
+  box-shadow: 2px 2px 10px rgb(94, 50, 50);
   margin: 10px 0 0 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-weight: 600;
 }
+
+.button:hover{
+  background-color: rgb(127, 25, 33);
+  cursor: pointer;
+}
+
+a.title{
+  text-decoration: none;
+  color: black;
+}
+
